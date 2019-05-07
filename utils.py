@@ -15,7 +15,7 @@ class ResultLogger(object):
             print(score)
 
             return {
-                "steps": obj.steps,
+                "steps": self.obj.steps,
                 "score": score,
                 "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             }

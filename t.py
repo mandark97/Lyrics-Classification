@@ -10,17 +10,20 @@ from utils import ResultLogger
 
 dataset_loader = DatasetLoader()
 X, y = dataset_loader.load_train()
-
+# tfif_vect = TfidfVectorizer(strip_accents="ascii", max_df=0.3)
 pipe1 = Pipeline([
-    ("tfid", TfidfVectorizer(strip_accents="ascii", max_df=0.4)),
-    ("svc", SVC(verbose=True))
+    ("tfid", TfidfVectorizer(strip_accents="ascii", max_df=0.3)),
+    ("svc", SVC(verbose=True, kernel='linear', C=0.5))
 ])
 
-X_train, X_val, y_train, y_val = train_test_split(X, y)
-pipe1.fit(X_train, X_train)
+# X = tfif_vect.fit_transform(X)
+# svc = SVC(verbose=True, kernel='linear', C=0.5)
 
+# X_train, X_val, y_train, y_val = train_test_split(X, y)
+# svc.fit(X, y)
+pipe1.fit(X, y)
 result_logger = ResultLogger(ResultLogger.PIPELINE, pipe1)
-
-result_logger.score(X_val, y_val)
 X_test, y_test = dataset_loader.load_test()
-result_logger.score(X_val, y_val)
+result_logger.score(X_test, y_test)
+# X_test = tfif_vect.transform(X_test)
+# print(svc.score(X_test, y_test))
