@@ -16,7 +16,7 @@ X = tfid.fit_transform(X)
 X_test, y_test = dataset_loader.load_test()
 X_test = tfid.transform(X_test)
 
-pipeline_optimizer = TPOTClassifier(verbosity=2, use_dask=True, n_jobs=-1,generations=5, population_size=20, cv=5, config_dict='TPOT sparse')
+pipeline_optimizer = TPOTClassifier(verbosity=3, use_dask=True, n_jobs=-1,generations=5, population_size=5, cv=5, config_dict='TPOT sparse')
 pipeline_optimizer.fit(X, y)
 print(pipeline_optimizer.score(X_test, y_test))
 pipeline_optimizer.export('tpot_exported_pipeline.py')
