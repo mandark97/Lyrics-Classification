@@ -5,8 +5,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
 from tensorflow import keras
-import gensim
-from gensim.models import Word2Vec
 
 from preprocessing import DatasetLoader
 
@@ -29,6 +27,24 @@ def svc_config():
 def main(max_df, kernel, C, _run):
     dataset_loader = DatasetLoader()
     X, y = dataset_loader.load_train()
+    vectorizer = TfidfVectorizer(
+        strip_accents='ascii', max_df=max_df, max_features=50000)
+    X_train = vectorizer.fit_transform(X).todense()
+
+    model = keras.models.Sequential([
+        keras.layers.Dense(128, input_shape=(50000,), activation='relu'),
+        keras.layers.Dropout(0.5),
+        keras.layers.Dense(64, activation='relu'),
+        keras.layers.Dropout(0.5),
+        keras.layers.Dense(32, activation='relu'),
+        keras.layers.Dense(len(np.unique(y)), activation='softmax'),
+    ])
+    model.compile(loss='sparse_categorical_crossentropy',
+                  optimizer='adam', metrics=['accuracy'])
+    model.fit(X_train, y)
+
+    X_test, y_test = dataset_loader.load_test()
+    X_test = vectorizer.transform(X_test)
 
     score = model.evaluate(X_test, y_test)
     print(score)

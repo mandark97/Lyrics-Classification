@@ -1,0 +1,187 @@
+INFO - tfid_svc - Running command 'main'
+INFO - tfid_svc - Started run with ID "1"
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.830928, rho = -0.055417
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.725656, rho = -0.046662
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.600190, rho = 0.013680
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.678528, rho = 0.008449
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.828864, rho = -0.009857
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.458332, rho = -0.012697
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.713277, rho = -0.017997
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.648246, rho = -0.065061
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.840775, rho = -0.040458
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.684218, rho = 0.014166
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.822505, rho = -0.063351
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.835774, rho = -0.016974
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.699638, rho = -0.011489
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.704239, rho = 0.000160
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.922295, rho = 0.055306
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.707612, rho = -0.038654
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.997425, rho = 0.025643
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.354361, rho = 0.008335
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.760433, rho = 0.003687
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.701966, rho = -0.018297
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.625043, rho = -0.020050
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.800116, rho = 0.000945
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.629626, rho = 0.021698
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.603235, rho = 0.001800
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.646516, rho = 0.038002
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.834375, rho = -0.002780
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.450311, rho = -0.030081
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.812280, rho = -0.054698
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.947541, rho = -0.002436
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.816497, rho = 0.010997
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.722198, rho = 0.009240
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.401764, rho = 0.005357
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.697622, rho = 0.007689
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.859742, rho = 0.032524
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.760215, rho = 0.038709
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.440805, rho = -0.125315
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.676384, rho = -0.014117
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.883205, rho = 0.039216
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.698475, rho = 0.013443
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.658263, rho = -0.001146
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.518284, rho = 0.002258
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.644982, rho = -0.020605
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.951274, rho = -0.019248
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -9.069466, rho = 0.009285
+nSV = 20, nBSV = 20
+WARN: libsvm Solver reached max_iter
+optimization finished, #iter = 10
+obj = -8.786636, rho = 0.020221
+nSV = 20, nBSV = 20
+Total nSV = 788
+/home/matei/anaconda3/envs/machine_learning/lib/python3.6/site-packages/sklearn/svm/base.py:244: ConvergenceWarning: Solver terminated early (max_iter=10).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  % self.max_iter, ConvergenceWarning)
+[LibSVM]0.18185255198487713
+INFO - tfid_svc - Completed after 0:00:09

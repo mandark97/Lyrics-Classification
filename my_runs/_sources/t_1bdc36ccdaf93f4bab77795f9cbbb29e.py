@@ -4,19 +4,16 @@ from sacred.observers import FileStorageObserver
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
-from tensorflow import keras
-import gensim
-from gensim.models import Word2Vec
 
 from preprocessing import DatasetLoader
 
-ex = Experiment("tfid_neural_network")
+ex = Experiment("tfid_svc")
 ex.observers.append(FileStorageObserver.create("my_runs"))
 
 
 @ex.config
 def tf_id_config():
-    max_df = 0.4
+    max_df = 0.1
 
 
 @ex.config
@@ -30,6 +27,14 @@ def main(max_df, kernel, C, _run):
     dataset_loader = DatasetLoader()
     X, y = dataset_loader.load_train()
 
-    score = model.evaluate(X_test, y_test)
+    pipe1 = Pipeline([
+        ("tfid", TfidfVectorizer(strip_accents="ascii", max_df=max_df)),
+        ("naibe_bayes", MultinomialNB())
+    ])
+
+    pipe1.fit(X, y)
+
+    X_test, y_test = dataset_loader.load_test()
+    score = pipe1.score(X_test, y_test)
     print(score)
     _run.log_scalar("pipeline_score", score)

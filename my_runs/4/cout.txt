@@ -1,0 +1,4 @@
+INFO - tfid_naive_bayes - Running command 'main'
+INFO - tfid_naive_bayes - Started run with ID "4"
+0.2988027725267801
+INFO - tfid_naive_bayes - Completed after 0:00:04
