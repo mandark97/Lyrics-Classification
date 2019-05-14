@@ -1,0 +1,11 @@
+{
+  "count_vect": {
+    "lowercase": true,
+    "max_df": 0.6
+  },
+  "seed": 393082543,
+  "svc_conf": {
+    "C": 0.5,
+    "kernel": "linear"
+  }
+}

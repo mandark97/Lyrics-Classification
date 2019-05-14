@@ -1,42 +1,37 @@
 import numpy as np
 from sacred import Experiment
 from sacred.observers import FileStorageObserver
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 from preprocessing import DatasetLoader
 
-ex = Experiment("tfid")
+ex = Experiment("bow")
 ex.observers.append(FileStorageObserver.create("my_runs"))
 
 
 @ex.config
 def count_vectorizer_config():
-    count_vect = {
-        "max_df": 0.6,
-        "lowercase": True,
-        "ngram_range": (2,2),
-        "analyzer": "char"
-    }
+    max_features = 50000
+    lowercase = True
 
 
 @ex.config
 def svc_config():
-    svc_conf = {
-        "kernel": "linear",
-        "C": 0.5
-    }
+    kernel = 'linear'
+    C = 0.5
 
 
 @ex.automain
-def main(count_vect, svc_conf, _run):
+def main(max_features, lowercase, kernel, C, _run):
     dataset_loader = DatasetLoader()
     X, y = dataset_loader.load_train()
 
     pipe = Pipeline([
-        ('bow', TfidfVectorizer(strip_accents='ascii',
-                                **count_vect)),
-        ('svc', SVC(verbose=True, **svc_conf))
+        ('bow', CountVectorizer(strip_accents='ascii',
+                                lowercase=lowercase,
+                                max_features=max_features)),
+        ('svc', SVC(C=C, kernel=kernel, verbose=True))
     ])
 
     pipe.fit(X, y)

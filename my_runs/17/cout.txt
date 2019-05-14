@@ -1,0 +1,223 @@
+INFO - tfid - Running command 'main'
+INFO - tfid - Started run with ID "17"
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2790
+obj = -858.173594, rho = 0.636250
+nSV = 2117, nBSV = 1846
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2386
+obj = -870.942959, rho = -0.216172
+nSV = 2054, nBSV = 1821
+.*.*
+optimization finished, #iter = 2159
+obj = -537.765903, rho = -1.449830
+nSV = 1474, nBSV = 1209
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2330
+obj = -886.979710, rho = -0.345751
+nSV = 2104, nBSV = 1891
+..*
+optimization finished, #iter = 2830
+obj = -1085.901596, rho = 0.752928
+nSV = 2516, nBSV = 2263
+.*.*
+optimization finished, #iter = 2255
+obj = -587.176576, rho = -0.636734
+nSV = 1572, nBSV = 1316
+..*.*
+optimization finished, #iter = 3509
+obj = -1266.272559, rho = 0.345766
+nSV = 2940, nBSV = 2645
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2256
+obj = -808.307075, rho = -0.276562
+nSV = 1940, nBSV = 1704
+...*.*
+optimization finished, #iter = 4494
+obj = -1496.028836, rho = 0.761844
+nSV = 3398, nBSV = 3071
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2064
+obj = -807.157300, rho = -0.778854
+nSV = 1942, nBSV = 1713
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2245
+obj = -689.716515, rho = -1.997518
+nSV = 1718, nBSV = 1455
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2164
+obj = -923.246078, rho = -0.963070
+nSV = 2146, nBSV = 1934
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2375
+obj = -982.482771, rho = -0.150533
+nSV = 2338, nBSV = 2116
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2335
+obj = -846.410494, rho = -1.211993
+nSV = 2035, nBSV = 1786
+..*.*
+optimization finished, #iter = 3596
+obj = -1413.690835, rho = -0.192904
+nSV = 3142, nBSV = 2856
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2083
+obj = -874.515303, rho = -0.917918
+nSV = 2045, nBSV = 1821
+...*..*
+optimization finished, #iter = 5885
+obj = -1474.226177, rho = 0.608475
+nSV = 3273, nBSV = 2867
+.*
+optimization finished, #iter = 1563
+obj = -465.428354, rho = -1.232833
+nSV = 1259, nBSV = 1029
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1696
+obj = -800.092058, rho = -0.224324
+nSV = 1882, nBSV = 1709
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2151
+obj = -836.575558, rho = 0.744384
+nSV = 1998, nBSV = 1772
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1962
+obj = -680.799502, rho = -0.589739
+nSV = 1709, nBSV = 1476
+..*.*
+optimization finished, #iter = 3206
+obj = -964.800633, rho = 0.727902
+nSV = 2252, nBSV = 1956
+.*
+optimization finished, #iter = 1835
+obj = -638.992881, rho = -0.021579
+nSV = 1572, nBSV = 1351
+...*..*.*
+optimization finished, #iter = 6003
+obj = -1067.779250, rho = 0.971383
+nSV = 2439, nBSV = 2014
+.*
+optimization finished, #iter = 1739
+obj = -489.748562, rho = 1.375065
+nSV = 1324, nBSV = 1079
+.*.*
+optimization finished, #iter = 2011
+obj = -567.088252, rho = 1.812526
+nSV = 1498, nBSV = 1239
+.**.*
+optimization finished, #iter = 1889
+obj = -493.763196, rho = 1.067954
+nSV = 1340, nBSV = 1082
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2702
+obj = -827.777513, rho = 1.988729
+nSV = 2034, nBSV = 1731
+.*
+optimization finished, #iter = 1859
+obj = -628.967950, rho = 1.553670
+nSV = 1587, nBSV = 1347
+..*.*
+optimization finished, #iter = 3166
+obj = -789.918767, rho = 2.313199
+nSV = 2002, nBSV = 1687
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2088
+obj = -870.039824, rho = 0.906396
+nSV = 2071, nBSV = 1853
+.*.*
+optimization finished, #iter = 2127
+obj = -676.421129, rho = -0.450801
+nSV = 1681, nBSV = 1454
+..*
+optimization finished, #iter = 2833
+obj = -1105.919221, rho = 0.657451
+nSV = 2484, nBSV = 2222
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 1965
+obj = -710.894804, rho = -0.017949
+nSV = 1701, nBSV = 1509
+......*.........*.*
+optimization finished, #iter = 15385
+obj = -1182.796993, rho = 0.999200
+nSV = 2748, nBSV = 2098
+.*.*
+optimization finished, #iter = 2101
+obj = -613.734955, rho = -1.162768
+nSV = 1589, nBSV = 1343
+..*.*
+optimization finished, #iter = 3481
+obj = -1348.800658, rho = -0.109332
+nSV = 3047, nBSV = 2777
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2219
+obj = -894.191622, rho = -0.823459
+nSV = 2090, nBSV = 1883
+..
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 3638
+obj = -1410.038137, rho = 0.445260
+nSV = 3161, nBSV = 2869
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2563
+obj = -849.045310, rho = 0.941738
+nSV = 2073, nBSV = 1797
+.*
+optimization finished, #iter = 1622
+obj = -560.792799, rho = 0.596864
+nSV = 1417, nBSV = 1198
+..*.*
+optimization finished, #iter = 3517
+obj = -1160.608986, rho = 1.364453
+nSV = 2712, nBSV = 2411
+..*..*
+optimization finished, #iter = 4477
+obj = -1117.237637, rho = -0.736467
+nSV = 2538, nBSV = 2168
+...*.*
+optimization finished, #iter = 4864
+obj = -2119.213415, rho = 0.834096
+nSV = 4665, nBSV = 4326
+...*..*.*
+optimization finished, #iter = 5108
+obj = -1106.471803, rho = 1.134880
+nSV = 2514, nBSV = 2134
+Total nSV = 16726
+[LibSVM]0.3818525519848771
+INFO - tfid - Completed after 0:07:19

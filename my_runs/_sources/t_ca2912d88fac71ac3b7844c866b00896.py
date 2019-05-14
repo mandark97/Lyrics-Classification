@@ -1,12 +1,12 @@
 import numpy as np
 from sacred import Experiment
 from sacred.observers import FileStorageObserver
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 from preprocessing import DatasetLoader
 
-ex = Experiment("tfid")
+ex = Experiment("bow")
 ex.observers.append(FileStorageObserver.create("my_runs"))
 
 
@@ -14,9 +14,7 @@ ex.observers.append(FileStorageObserver.create("my_runs"))
 def count_vectorizer_config():
     count_vect = {
         "max_df": 0.6,
-        "lowercase": True,
-        "ngram_range": (2,2),
-        "analyzer": "char"
+        "lowercase": True
     }
 
 
@@ -34,7 +32,7 @@ def main(count_vect, svc_conf, _run):
     X, y = dataset_loader.load_train()
 
     pipe = Pipeline([
-        ('bow', TfidfVectorizer(strip_accents='ascii',
+        ('bow', CountVectorizer(strip_accents='ascii',
                                 **count_vect)),
         ('svc', SVC(verbose=True, **svc_conf))
     ])
