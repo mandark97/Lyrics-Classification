@@ -1,0 +1,22 @@
+INFO - tfid - Running command 'main'
+INFO - tfid - Started run with ID "23"
+INFO - gensim.models.word2vec - collecting all words and their counts
+INFO - gensim.models.word2vec - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+INFO - gensim.models.word2vec - PROGRESS: at sentence #10000, processed 2469626 words, keeping 100360 word types
+INFO - gensim.models.word2vec - collected 145926 word types from a corpus of 4546455 raw words and 18513 sentences
+INFO - gensim.models.word2vec - Loading a fresh vocabulary
+INFO - gensim.models.word2vec - effective_min_count=20 retains 10887 unique words (7% of original 145926, drops 135039)
+INFO - gensim.models.word2vec - effective_min_count=20 leaves 4180046 word corpus (91% of original 4546455, drops 366409)
+INFO - gensim.models.word2vec - deleting the raw counts dictionary of 145926 items
+INFO - gensim.models.word2vec - sample=6e-05 downsamples 744 most-common words
+INFO - gensim.models.word2vec - downsampling leaves estimated 1705263 word corpus (40.8% of prior 4180046)
+INFO - gensim.models.base_any2vec - estimated required memory for 10887 words and 3000 dimensions: 266731500 bytes
+INFO - gensim.models.word2vec - resetting layer weights
+INFO - gensim.models.base_any2vec - training model with 3 workers on 10887 vocabulary and 3000 features, using sg=0 hs=0 sample=6e-05 negative=20 window=2
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 3.48% examples, 52701 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 7.26% examples, 58303 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 11.04% examples, 60518 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 14.94% examples, 61198 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 18.93% examples, 61496 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 22.62% examples, 61810 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 26.58% examples, 62042 words/s, in_qsize 5, out_qsize 0

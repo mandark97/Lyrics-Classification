@@ -1,0 +1,16 @@
+{
+  "count_vect": {
+    "analyzer": "char",
+    "lowercase": true,
+    "max_df": 0.6,
+    "ngram_range": [
+      2,
+      2
+    ]
+  },
+  "seed": 163795341,
+  "svc_conf": {
+    "C": 0.5,
+    "kernel": "linear"
+  }
+}

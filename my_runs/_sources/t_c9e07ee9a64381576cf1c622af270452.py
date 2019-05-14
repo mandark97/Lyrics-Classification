@@ -32,13 +32,13 @@ def svc_config():
     }
 def get_sentence_embedding(w2v_model,sentence):
   
-  embedding = np.zeros(3000)
+  embedding = np.zeros(300)
   
   for word in sentence.split():
     try:
       vector = w2v_model.wv.get_vector(word)
     except KeyError as e:
-      vector = np.zeros(3000)
+      vector = np.zeros(300)
     embedding += vector
     
   return embedding / len(sentence.split())

@@ -32,13 +32,13 @@ def svc_config():
     }
 def get_sentence_embedding(w2v_model,sentence):
   
-  embedding = np.zeros(3000)
+  embedding = np.zeros(300)
   
   for word in sentence.split():
     try:
       vector = w2v_model.wv.get_vector(word)
     except KeyError as e:
-      vector = np.zeros(3000)
+      vector = np.zeros(300)
     embedding += vector
     
   return embedding / len(sentence.split())
@@ -49,7 +49,7 @@ def main(count_vect, svc_conf, _run):
     X, y = dataset_loader.load_train()
     w2v_model = Word2Vec(min_count=20,
                         window=2,
-                        size=3000,
+                        size=300,
                         sample=6e-5, 
                         alpha=0.03, 
                         min_alpha=0.0007, 
@@ -58,17 +58,17 @@ def main(count_vect, svc_conf, _run):
     cleaned_text = [x.split() for x in X]
     w2v_model.build_vocab(cleaned_text)
 
-    w2v_model.train(cleaned_text, total_examples=w2v_model.corpus_count, epochs=50)
+    w2v_model.train(cleaned_text, total_examples=w2v_model.corpus_count, epochs=10)
     w2v_model.init_sims(replace=True)
     x_w2v = np.array([get_sentence_embedding(w2v_model,sentence) for sentence in X])
     
     svc = SVC(verbose=True, **svc_conf)
-    svc.fit(x_w2v, y)
+    svc.fit(X, y)
 
     X_test, y_test = dataset_loader.load_test()
 
-    w_test = np.array([get_sentence_embedding(w2v_model,sentence) for sentence in X_test])
-    score = svc.score(w_test, y_test)
+    w_test = np.array([get_sentence_embedding(sentence) for sentence in X_test])
+    score = svc.score(X_test, y_test)
 
     print(score)
     _run.log_scalar("pipeline_score", score)

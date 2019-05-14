@@ -1,0 +1,371 @@
+INFO - tfid - Running command 'main'
+INFO - tfid - Started run with ID "21"
+INFO - gensim.models.word2vec - collecting all words and their counts
+INFO - gensim.models.word2vec - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+INFO - gensim.models.word2vec - PROGRESS: at sentence #10000, processed 2469626 words, keeping 100360 word types
+INFO - gensim.models.word2vec - collected 145926 word types from a corpus of 4546455 raw words and 18513 sentences
+INFO - gensim.models.word2vec - Loading a fresh vocabulary
+INFO - gensim.models.word2vec - effective_min_count=20 retains 10887 unique words (7% of original 145926, drops 135039)
+INFO - gensim.models.word2vec - effective_min_count=20 leaves 4180046 word corpus (91% of original 4546455, drops 366409)
+INFO - gensim.models.word2vec - deleting the raw counts dictionary of 145926 items
+INFO - gensim.models.word2vec - sample=6e-05 downsamples 744 most-common words
+INFO - gensim.models.word2vec - downsampling leaves estimated 1705263 word corpus (40.8% of prior 4180046)
+INFO - gensim.models.base_any2vec - estimated required memory for 10887 words and 300 dimensions: 31572300 bytes
+INFO - gensim.models.word2vec - resetting layer weights
+INFO - gensim.models.base_any2vec - training model with 3 workers on 10887 vocabulary and 300 features, using sg=0 hs=0 sample=6e-05 negative=20 window=2
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 22.42% examples, 386935 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 45.58% examples, 388451 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 68.10% examples, 386827 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 90.41% examples, 383235 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 1 : training on 4546455 raw words (1706214 effective words) took 4.4s, 385234 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 22.22% examples, 381789 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 45.17% examples, 381372 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 66.15% examples, 372919 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 84.71% examples, 357438 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 2 : training on 4546455 raw words (1705032 effective words) took 4.7s, 360283 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 21.22% examples, 359171 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 42.33% examples, 358748 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 64.21% examples, 363135 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 85.82% examples, 362787 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 3 : training on 4546455 raw words (1704432 effective words) took 4.7s, 364494 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 20.56% examples, 353144 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 42.98% examples, 366113 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 64.42% examples, 365149 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 85.57% examples, 362886 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 4 : training on 4546455 raw words (1704444 effective words) took 4.7s, 364363 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 22.62% examples, 383207 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 46.01% examples, 388264 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 68.72% examples, 387917 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 92.44% examples, 389316 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 5 : training on 4546455 raw words (1704660 effective words) took 4.4s, 390161 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 22.01% examples, 379653 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 45.17% examples, 382399 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 67.89% examples, 384172 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 91.12% examples, 385644 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 6 : training on 4546455 raw words (1705040 effective words) took 4.4s, 386496 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 22.01% examples, 377382 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 44.97% examples, 382322 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 66.93% examples, 379451 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 89.74% examples, 380847 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 7 : training on 4546455 raw words (1705385 effective words) took 4.5s, 381518 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 21.42% examples, 365358 words/s, in_qsize 5, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 40.80% examples, 345687 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 57.41% examples, 325126 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 78.22% examples, 329767 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 8 : training on 4546455 raw words (1705144 effective words) took 5.0s, 338406 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 20.81% examples, 353187 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 42.75% examples, 359839 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 63.77% examples, 360091 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 84.71% examples, 358302 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 9 : training on 4546455 raw words (1704944 effective words) took 4.7s, 363000 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 22.42% examples, 383318 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 44.75% examples, 379456 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 67.27% examples, 380211 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 89.96% examples, 380817 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 10 : training on 4546455 raw words (1705678 effective words) took 4.5s, 380633 effective words/s
+INFO - gensim.models.base_any2vec - training on a 45464550 raw words (17050973 effective words) took 46.0s, 370679 effective words/s
+INFO - gensim.models.keyedvectors - precomputing L2-norms of word weight vectors
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1420
+obj = -1172.421074, rho = 1.343600
+nSV = 2730, nBSV = 2715
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1230
+obj = -1056.596763, rho = 1.117024
+nSV = 2241, nBSV = 2223
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1087
+obj = -826.855679, rho = 1.568637
+nSV = 2077, nBSV = 2062
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1299
+obj = -1144.772125, rho = -0.158325
+nSV = 2381, nBSV = 2353
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1633
+obj = -1470.813748, rho = 0.615472
+nSV = 3074, nBSV = 3063
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1062
+obj = -808.116283, rho = 1.147903
+nSV = 2017, nBSV = 2005
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1960
+obj = -1635.321499, rho = 1.231475
+nSV = 3595, nBSV = 3576
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1241
+obj = -1092.225816, rho = 0.185100
+nSV = 2366, nBSV = 2353
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2235
+obj = -1803.148116, rho = 1.599904
+nSV = 3793, nBSV = 3766
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1133
+obj = -976.986723, rho = 0.307740
+nSV = 2161, nBSV = 2146
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1259
+obj = -1012.040331, rho = 0.541987
+nSV = 2318, nBSV = 2304
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1273
+obj = -1150.008315, rho = -1.125888
+nSV = 2392, nBSV = 2371
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1431
+obj = -1235.845968, rho = -0.607414
+nSV = 2795, nBSV = 2783
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1277
+obj = -1040.149670, rho = 0.307319
+nSV = 2316, nBSV = 2299
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2178
+obj = -1534.631080, rho = 0.898239
+nSV = 3114, nBSV = 3043
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1263
+obj = -1130.932049, rho = -1.178465
+nSV = 2386, nBSV = 2373
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2497
+obj = -1536.725673, rho = 0.946501
+nSV = 3140, nBSV = 3030
+*
+optimization finished, #iter = 939
+obj = -713.585187, rho = 0.049786
+nSV = 1726, nBSV = 1709
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1106
+obj = -970.062820, rho = -0.937575
+nSV = 2060, nBSV = 2049
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1224
+obj = -1033.122303, rho = -0.728920
+nSV = 2201, nBSV = 2191
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1135
+obj = -911.013587, rho = 0.108242
+nSV = 2152, nBSV = 2142
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1389
+obj = -1090.841281, rho = -0.253896
+nSV = 2312, nBSV = 2297
+*
+optimization finished, #iter = 966
+obj = -791.756350, rho = -0.877499
+nSV = 1742, nBSV = 1728
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1675
+obj = -1143.950148, rho = 0.670668
+nSV = 2327, nBSV = 2282
+*.*
+optimization finished, #iter = 1008
+obj = -806.382344, rho = -1.153916
+nSV = 1935, nBSV = 1917
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1102
+obj = -850.766544, rho = -0.847286
+nSV = 2055, nBSV = 2041
+*
+optimization finished, #iter = 899
+obj = -699.915497, rho = -0.196229
+nSV = 1692, nBSV = 1682
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1520
+obj = -1151.276738, rho = -0.597152
+nSV = 2647, nBSV = 2633
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1073
+obj = -894.068990, rho = -1.424891
+nSV = 2032, nBSV = 2018
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1677
+obj = -1215.421223, rho = -0.322363
+nSV = 2867, nBSV = 2847
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1319
+obj = -1135.779009, rho = 0.742397
+nSV = 2388, nBSV = 2370
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1094
+obj = -885.219270, rho = 0.840927
+nSV = 2040, nBSV = 2026
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1936
+obj = -1188.481080, rho = 0.992429
+nSV = 2421, nBSV = 2330
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1133
+obj = -988.574298, rho = -0.271064
+nSV = 2136, nBSV = 2125
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2651
+obj = -1189.989056, rho = 1.000408
+nSV = 2653, nBSV = 2140
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1091
+obj = -823.662422, rho = 0.544015
+nSV = 2026, nBSV = 2011
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1960
+obj = -1517.107945, rho = 0.920931
+nSV = 3102, nBSV = 3060
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1233
+obj = -1138.440707, rho = -0.814893
+nSV = 2382, nBSV = 2377
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2109
+obj = -1517.882519, rho = 0.935509
+nSV = 3106, nBSV = 3053
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1367
+obj = -1048.271624, rho = -0.312257
+nSV = 2407, nBSV = 2393
+*
+optimization finished, #iter = 890
+obj = -737.803744, rho = -0.724695
+nSV = 1689, nBSV = 1681
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1726
+obj = -1324.123354, rho = -0.263755
+nSV = 2930, nBSV = 2908
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2997
+obj = -1189.875669, rho = -1.001966
+nSV = 2496, nBSV = 2267
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2890
+obj = -2470.427024, rho = 0.735790
+nSV = 5142, nBSV = 5123

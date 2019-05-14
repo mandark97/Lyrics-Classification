@@ -1,0 +1,1642 @@
+INFO - tfid - Running command 'main'
+INFO - tfid - Started run with ID "25"
+INFO - gensim.models.word2vec - collecting all words and their counts
+INFO - gensim.models.word2vec - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+INFO - gensim.models.word2vec - PROGRESS: at sentence #10000, processed 2469626 words, keeping 100360 word types
+INFO - gensim.models.word2vec - collected 145926 word types from a corpus of 4546455 raw words and 18513 sentences
+INFO - gensim.models.word2vec - Loading a fresh vocabulary
+INFO - gensim.models.word2vec - effective_min_count=20 retains 10887 unique words (7% of original 145926, drops 135039)
+INFO - gensim.models.word2vec - effective_min_count=20 leaves 4180046 word corpus (91% of original 4546455, drops 366409)
+INFO - gensim.models.word2vec - deleting the raw counts dictionary of 145926 items
+INFO - gensim.models.word2vec - sample=6e-05 downsamples 744 most-common words
+INFO - gensim.models.word2vec - downsampling leaves estimated 1705263 word corpus (40.8% of prior 4180046)
+INFO - gensim.models.base_any2vec - estimated required memory for 10887 words and 3000 dimensions: 266731500 bytes
+INFO - gensim.models.word2vec - resetting layer weights
+INFO - gensim.models.base_any2vec - training model with 3 workers on 10887 vocabulary and 3000 features, using sg=0 hs=0 sample=6e-05 negative=20 window=2
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 3.71% examples, 61984 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 7.26% examples, 62302 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 11.04% examples, 62155 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 15.37% examples, 64945 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 19.58% examples, 64877 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 23.92% examples, 65729 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 28.31% examples, 66813 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 32.24% examples, 66772 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 35.39% examples, 65484 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 39.00% examples, 64730 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 42.98% examples, 64658 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 46.22% examples, 63967 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 49.26% examples, 63225 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 53.04% examples, 63279 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 57.19% examples, 63576 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 61.50% examples, 64055 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 65.72% examples, 64149 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 70.00% examples, 64522 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 74.18% examples, 64723 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 78.65% examples, 64953 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 82.58% examples, 64851 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 86.26% examples, 64640 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 89.74% examples, 64093 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 93.53% examples, 63989 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 1 - PROGRESS: at 97.63% examples, 63970 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 1 : training on 4546455 raw words (1706214 effective words) took 26.6s, 64235 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 4.07% examples, 62823 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 7.83% examples, 63940 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 11.71% examples, 64145 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 15.60% examples, 64405 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 18.91% examples, 62532 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 22.42% examples, 62248 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 26.36% examples, 62147 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 30.43% examples, 62782 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 34.56% examples, 63621 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 38.11% examples, 62861 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 41.72% examples, 62573 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 44.75% examples, 61279 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 47.82% examples, 60699 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 50.97% examples, 59861 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 54.15% examples, 59333 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 57.41% examples, 59040 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 60.41% examples, 58461 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 64.42% examples, 58703 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 68.50% examples, 59021 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 72.46% examples, 59228 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 76.82% examples, 59751 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 80.81% examples, 60012 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 84.71% examples, 60097 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 88.89% examples, 60369 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 92.91% examples, 60565 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 2 - PROGRESS: at 96.59% examples, 60606 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 2 : training on 4546455 raw words (1705668 effective words) took 28.0s, 60992 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 4.07% examples, 63217 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 8.48% examples, 66059 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 12.89% examples, 67136 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 17.23% examples, 67908 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 21.00% examples, 67454 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 25.07% examples, 67323 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 29.15% examples, 67130 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 33.13% examples, 66976 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 37.44% examples, 67521 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 41.27% examples, 66813 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 45.17% examples, 66365 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 48.69% examples, 65934 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 52.67% examples, 65960 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 56.98% examples, 66398 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 60.41% examples, 65866 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 64.42% examples, 65722 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 68.34% examples, 65526 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 71.80% examples, 65136 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 75.42% examples, 64922 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 79.51% examples, 64985 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 83.38% examples, 65024 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 87.38% examples, 64817 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 90.89% examples, 64496 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 94.87% examples, 64440 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 3 - PROGRESS: at 98.82% examples, 64581 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 3 : training on 4546455 raw words (1704587 effective words) took 26.3s, 64696 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 4.07% examples, 60157 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 8.05% examples, 64409 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 12.31% examples, 64664 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 16.32% examples, 64052 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 20.19% examples, 63851 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 23.94% examples, 64067 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 27.89% examples, 62927 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 31.98% examples, 63776 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 36.15% examples, 64411 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 40.08% examples, 64627 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 44.27% examples, 64358 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 47.82% examples, 64124 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 51.61% examples, 64022 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 55.72% examples, 64416 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 59.75% examples, 64624 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 64.21% examples, 65137 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 68.34% examples, 65255 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 72.25% examples, 65175 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 76.36% examples, 65334 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 80.40% examples, 65397 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 84.26% examples, 65434 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 88.25% examples, 65294 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 92.22% examples, 65277 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 96.15% examples, 65284 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 4 - PROGRESS: at 99.67% examples, 65048 words/s, in_qsize 2, out_qsize 1
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 4 : training on 4546455 raw words (1706642 effective words) took 26.2s, 65204 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 3.52% examples, 55700 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 7.45% examples, 62414 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 11.04% examples, 61615 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 14.95% examples, 62754 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 18.91% examples, 62353 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 22.62% examples, 62853 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 25.95% examples, 61424 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 29.15% examples, 60187 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 32.48% examples, 59653 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 35.90% examples, 59568 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 39.63% examples, 59816 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 43.87% examples, 60254 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 47.60% examples, 60606 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 51.40% examples, 60558 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 55.72% examples, 61248 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 59.75% examples, 61510 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 64.21% examples, 62141 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 68.34% examples, 62354 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 72.67% examples, 62820 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 76.82% examples, 63085 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 81.06% examples, 63350 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 85.13% examples, 63601 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 89.10% examples, 63619 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 93.34% examples, 63872 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 5 - PROGRESS: at 97.24% examples, 63956 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 5 : training on 4546455 raw words (1704805 effective words) took 26.6s, 64070 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 3.71% examples, 61883 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 7.23% examples, 61263 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 11.04% examples, 61916 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 14.95% examples, 62333 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 18.69% examples, 62171 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 22.43% examples, 62603 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 26.36% examples, 62953 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 30.22% examples, 62955 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 34.18% examples, 62933 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 37.44% examples, 62159 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 40.80% examples, 61471 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 44.07% examples, 60725 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 47.82% examples, 60967 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 51.61% examples, 61147 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 55.07% examples, 60862 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 58.26% examples, 60451 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 61.72% examples, 60121 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 66.15% examples, 60641 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 70.00% examples, 60836 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 74.01% examples, 61094 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 78.22% examples, 61491 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 82.58% examples, 61777 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 86.94% examples, 62259 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 91.12% examples, 62383 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 95.52% examples, 62807 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 6 - PROGRESS: at 99.43% examples, 62893 words/s, in_qsize 3, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 6 : training on 4546455 raw words (1704936 effective words) took 27.0s, 63036 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 4.07% examples, 61857 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 8.05% examples, 65249 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 12.31% examples, 65392 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 16.82% examples, 67009 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 20.81% examples, 65935 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 24.61% examples, 65746 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 28.71% examples, 66312 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 32.48% examples, 65449 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 36.38% examples, 65364 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 40.33% examples, 65493 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 44.27% examples, 65528 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 48.03% examples, 65232 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 52.06% examples, 65404 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 56.19% examples, 65597 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 60.41% examples, 65741 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 64.42% examples, 65388 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 68.34% examples, 65169 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 72.46% examples, 65403 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 76.82% examples, 65554 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 81.06% examples, 65701 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 85.13% examples, 65757 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 89.10% examples, 65665 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 93.53% examples, 65856 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 7 - PROGRESS: at 97.63% examples, 66013 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 7 : training on 4546455 raw words (1704275 effective words) took 25.8s, 66123 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 3.48% examples, 57875 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 7.26% examples, 60656 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 10.67% examples, 60026 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 14.29% examples, 59019 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 18.91% examples, 61441 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 22.62% examples, 61844 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 27.23% examples, 62810 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 31.09% examples, 63230 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 35.39% examples, 64372 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 39.00% examples, 63291 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 43.67% examples, 63989 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 48.03% examples, 64562 words/s, in_qsize 5, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 52.48% examples, 65226 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 56.58% examples, 65531 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 60.66% examples, 65770 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 65.09% examples, 65960 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 68.93% examples, 65905 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 72.89% examples, 65877 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 77.07% examples, 65902 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 81.28% examples, 66124 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 85.35% examples, 66238 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 89.51% examples, 66344 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 93.34% examples, 66132 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 8 - PROGRESS: at 97.45% examples, 66281 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 8 : training on 4546455 raw words (1705769 effective words) took 25.7s, 66401 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 4.07% examples, 64607 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 8.48% examples, 68115 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 12.89% examples, 68991 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 17.66% examples, 69358 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 22.03% examples, 69698 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 26.58% examples, 70012 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 31.09% examples, 70113 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 35.67% examples, 70227 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 40.33% examples, 70337 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 44.97% examples, 70403 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 49.26% examples, 70574 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 53.70% examples, 70620 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 58.26% examples, 70670 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 62.83% examples, 70771 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 67.49% examples, 70748 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 72.00% examples, 70807 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 76.62% examples, 70833 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 81.06% examples, 70968 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 85.13% examples, 70876 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 89.74% examples, 70873 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 94.43% examples, 70885 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 9 - PROGRESS: at 98.82% examples, 70927 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 9 : training on 4546455 raw words (1705922 effective words) took 24.0s, 71086 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 4.07% examples, 65691 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 8.48% examples, 68480 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 12.89% examples, 69257 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 17.64% examples, 70048 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 22.01% examples, 70324 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 26.58% examples, 70519 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 31.09% examples, 70684 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 35.67% examples, 70784 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 40.33% examples, 70847 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 44.97% examples, 70939 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 49.09% examples, 71153 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 53.26% examples, 71178 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 57.63% examples, 71236 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 61.72% examples, 71045 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 66.42% examples, 71013 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 70.94% examples, 71079 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 75.42% examples, 71096 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 79.93% examples, 71264 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 84.04% examples, 71153 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 88.70% examples, 71144 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 93.15% examples, 71078 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 10 - PROGRESS: at 97.06% examples, 70824 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 10 : training on 4546455 raw words (1706706 effective words) took 24.1s, 70752 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 3.90% examples, 65504 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 7.83% examples, 62694 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 11.71% examples, 63618 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 16.32% examples, 65284 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 20.81% examples, 66284 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 25.07% examples, 66907 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 28.97% examples, 66250 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 32.71% examples, 65738 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 36.38% examples, 65155 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 40.33% examples, 65280 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 44.97% examples, 65918 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 49.09% examples, 66540 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 53.26% examples, 66966 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 57.63% examples, 67333 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 61.72% examples, 67440 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 66.42% examples, 67727 words/s, in_qsize 4, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 70.94% examples, 68061 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 75.42% examples, 68324 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 79.93% examples, 68566 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 84.26% examples, 68789 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 88.68% examples, 68972 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 93.11% examples, 68984 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 11 - PROGRESS: at 97.63% examples, 69182 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 11 : training on 4546455 raw words (1705042 effective words) took 24.6s, 69395 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 4.07% examples, 65510 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 8.48% examples, 68628 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 12.89% examples, 69821 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 17.64% examples, 70616 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 22.03% examples, 70869 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 26.58% examples, 71224 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 30.86% examples, 71201 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 34.39% examples, 69583 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 38.54% examples, 69572 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 42.75% examples, 69452 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 46.79% examples, 69232 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 50.97% examples, 69532 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 55.07% examples, 68999 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 59.30% examples, 69240 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 63.56% examples, 69057 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 67.70% examples, 68899 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 71.59% examples, 68628 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 75.42% examples, 68404 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 79.74% examples, 68505 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 84.02% examples, 68518 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 88.68% examples, 68714 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 93.15% examples, 68899 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 12 - PROGRESS: at 97.24% examples, 68876 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 12 : training on 4546455 raw words (1705498 effective words) took 24.7s, 69102 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 4.07% examples, 63247 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 7.83% examples, 63490 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 11.89% examples, 65491 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 16.32% examples, 66422 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 20.81% examples, 67461 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 25.26% examples, 68293 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 29.78% examples, 68821 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 34.39% examples, 69257 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 39.00% examples, 69578 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 43.67% examples, 69731 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 48.03% examples, 69910 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 52.48% examples, 70201 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 56.98% examples, 70318 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 61.50% examples, 70532 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 66.15% examples, 70613 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 70.71% examples, 70690 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 75.21% examples, 70802 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 79.93% examples, 70834 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 84.46% examples, 70719 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 88.49% examples, 70221 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 93.15% examples, 70201 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 13 - PROGRESS: at 97.06% examples, 70032 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 13 : training on 4546455 raw words (1705418 effective words) took 24.4s, 69966 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 3.48% examples, 55779 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 7.23% examples, 59196 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 11.04% examples, 58698 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 14.95% examples, 59821 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 19.58% examples, 62063 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 23.92% examples, 63815 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 28.51% examples, 65034 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 33.13% examples, 65938 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 37.67% examples, 66671 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 42.33% examples, 66971 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 46.80% examples, 67526 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 51.20% examples, 68108 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 55.72% examples, 68521 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 59.71% examples, 68552 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 64.42% examples, 68808 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 68.93% examples, 69160 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 73.61% examples, 69391 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 78.22% examples, 69701 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 82.58% examples, 69766 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 86.94% examples, 69746 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 91.12% examples, 69759 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 14 - PROGRESS: at 95.74% examples, 69901 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 14 : training on 4546455 raw words (1704500 effective words) took 24.3s, 70199 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 4.07% examples, 67173 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 8.48% examples, 69757 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 12.89% examples, 70738 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 17.66% examples, 71475 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 22.01% examples, 71739 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 26.58% examples, 72023 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 31.09% examples, 72182 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 35.67% examples, 72229 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 40.33% examples, 72322 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 44.97% examples, 72364 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 49.26% examples, 72634 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 53.70% examples, 72655 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 58.03% examples, 72699 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 62.36% examples, 72539 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 67.08% examples, 72645 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 71.37% examples, 72648 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 75.21% examples, 72270 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 79.74% examples, 72210 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 84.04% examples, 72222 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 88.49% examples, 72197 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 93.15% examples, 72168 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 15 - PROGRESS: at 97.24% examples, 72039 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 15 : training on 4546455 raw words (1705341 effective words) took 23.7s, 71988 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 4.07% examples, 64537 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 7.83% examples, 64508 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 12.09% examples, 67389 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 16.32% examples, 67157 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 20.81% examples, 68350 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 25.28% examples, 69233 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 29.78% examples, 69853 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 34.39% examples, 70274 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 39.00% examples, 70596 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 43.67% examples, 70843 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 47.82% examples, 71118 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 52.27% examples, 71260 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 56.76% examples, 71420 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 61.28% examples, 71581 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 65.72% examples, 71587 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 70.24% examples, 71735 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 74.84% examples, 71688 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 79.51% examples, 71897 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 84.04% examples, 71990 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 88.68% examples, 72064 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 93.15% examples, 72032 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 16 - PROGRESS: at 97.63% examples, 72073 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 16 : training on 4546455 raw words (1705408 effective words) took 23.6s, 72225 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 4.07% examples, 67803 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 8.48% examples, 70104 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 12.89% examples, 71171 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 17.64% examples, 71901 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 22.01% examples, 72206 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 26.58% examples, 72697 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 31.09% examples, 72858 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 35.67% examples, 73146 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 40.33% examples, 73032 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 44.97% examples, 72893 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 49.26% examples, 73145 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 53.70% examples, 73281 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 58.03% examples, 73275 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 62.36% examples, 73122 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 67.08% examples, 73221 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 71.59% examples, 73323 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 76.11% examples, 73430 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 80.81% examples, 73521 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 85.13% examples, 73486 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 89.51% examples, 73439 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 94.20% examples, 73474 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 17 - PROGRESS: at 98.62% examples, 73534 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 17 : training on 4546455 raw words (1705383 effective words) took 23.2s, 73646 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 4.07% examples, 67899 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 8.48% examples, 71279 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 12.89% examples, 72220 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 17.66% examples, 72972 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 22.01% examples, 73247 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 26.58% examples, 73608 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 30.86% examples, 73645 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 35.39% examples, 73471 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 40.08% examples, 73586 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 44.75% examples, 73556 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 49.05% examples, 73674 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 53.47% examples, 73750 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 57.83% examples, 73330 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 61.95% examples, 72976 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 66.42% examples, 72592 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 70.94% examples, 72334 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 75.42% examples, 72267 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 80.15% examples, 72292 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 84.71% examples, 72260 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 89.10% examples, 72299 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 93.34% examples, 72068 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 18 - PROGRESS: at 97.80% examples, 71977 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 18 : training on 4546455 raw words (1707022 effective words) took 23.7s, 72090 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 4.07% examples, 63052 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 8.48% examples, 68279 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 12.89% examples, 70269 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 17.45% examples, 71094 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 21.42% examples, 69621 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 25.75% examples, 70268 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 29.78% examples, 70145 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 34.18% examples, 70435 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 38.54% examples, 70396 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 42.98% examples, 70519 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 47.22% examples, 70653 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 51.20% examples, 70538 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 55.51% examples, 70642 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 59.75% examples, 70567 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 64.42% examples, 70657 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 68.93% examples, 70843 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 73.35% examples, 70940 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 77.79% examples, 70948 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 81.94% examples, 70882 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 86.26% examples, 70959 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 90.66% examples, 71023 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 94.43% examples, 70653 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 19 - PROGRESS: at 98.82% examples, 70800 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 19 : training on 4546455 raw words (1705914 effective words) took 24.0s, 70992 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 4.07% examples, 65414 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 8.48% examples, 68391 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 12.89% examples, 69737 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 17.04% examples, 68913 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 20.75% examples, 68163 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 25.26% examples, 69267 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 29.78% examples, 69711 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 34.18% examples, 70103 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 37.89% examples, 69309 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 41.72% examples, 68348 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 45.37% examples, 67787 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 48.69% examples, 66689 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 53.04% examples, 67081 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 57.63% examples, 67349 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 62.15% examples, 67814 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 66.42% examples, 67825 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 70.71% examples, 68160 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 74.18% examples, 67377 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 78.42% examples, 67374 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 82.37% examples, 67102 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 86.47% examples, 67194 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 90.19% examples, 66930 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 94.43% examples, 66982 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 20 - PROGRESS: at 98.62% examples, 67128 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 20 : training on 4546455 raw words (1705460 effective words) took 25.4s, 67235 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 3.48% examples, 56853 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 7.26% examples, 59319 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 11.04% examples, 59614 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 14.29% examples, 57678 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 17.64% examples, 56906 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 22.03% examples, 59177 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 26.58% examples, 61045 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 31.09% examples, 62433 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 34.75% examples, 62234 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 38.54% examples, 62246 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 42.11% examples, 61935 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 46.01% examples, 62129 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 50.38% examples, 62716 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 54.85% examples, 63355 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 59.09% examples, 63957 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 63.77% examples, 64384 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 68.34% examples, 64773 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 72.89% examples, 65181 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 77.55% examples, 65520 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 81.94% examples, 65750 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 86.04% examples, 65821 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 90.41% examples, 66089 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 94.87% examples, 66403 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 21 - PROGRESS: at 98.82% examples, 66486 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 21 : training on 4546455 raw words (1705520 effective words) took 25.6s, 66620 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 3.48% examples, 58131 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 7.26% examples, 60736 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 11.04% examples, 61892 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 14.95% examples, 61145 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 19.58% examples, 62670 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 23.92% examples, 63863 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 28.31% examples, 64907 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 32.48% examples, 64979 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 36.81% examples, 65788 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 41.03% examples, 65662 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 44.97% examples, 65393 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 48.88% examples, 65783 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 52.48% examples, 65233 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 56.39% examples, 65021 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 59.75% examples, 64211 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 63.07% examples, 63477 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 66.93% examples, 63299 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 70.71% examples, 63387 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 74.63% examples, 63333 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 78.65% examples, 63399 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 82.98% examples, 63821 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 87.38% examples, 64204 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 91.75% examples, 64370 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 22 - PROGRESS: at 95.92% examples, 64545 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 22 : training on 4546455 raw words (1705873 effective words) took 26.3s, 64886 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 3.52% examples, 57152 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 7.83% examples, 62874 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 12.09% examples, 65736 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 16.32% examples, 65504 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 20.19% examples, 65630 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 24.35% examples, 66473 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 28.71% examples, 67406 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 32.92% examples, 67610 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 37.04% examples, 67757 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 41.27% examples, 67738 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 45.58% examples, 68240 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 49.45% examples, 68211 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 53.04% examples, 67786 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 56.98% examples, 67343 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 60.86% examples, 67167 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 64.65% examples, 66893 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 68.93% examples, 67122 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 73.13% examples, 67191 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 77.55% examples, 67429 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 81.72% examples, 67320 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 86.04% examples, 67484 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 90.19% examples, 67520 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 94.43% examples, 67592 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 23 - PROGRESS: at 98.42% examples, 67606 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 23 : training on 4546455 raw words (1704820 effective words) took 25.1s, 67795 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 4.07% examples, 65986 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 8.48% examples, 68926 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 12.89% examples, 69463 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 17.66% examples, 70575 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 22.03% examples, 71019 words/s, in_qsize 5, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 26.58% examples, 71592 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 31.09% examples, 71909 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 35.39% examples, 72013 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 40.08% examples, 71967 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 44.75% examples, 72064 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 49.05% examples, 72103 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 53.47% examples, 72239 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 57.83% examples, 72312 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 61.72% examples, 71802 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 65.94% examples, 71608 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 70.46% examples, 71608 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 74.84% examples, 71687 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 79.31% examples, 71731 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 83.58% examples, 71545 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 87.82% examples, 71402 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 91.76% examples, 71128 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 24 - PROGRESS: at 96.37% examples, 71144 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 24 : training on 4546455 raw words (1705179 effective words) took 23.9s, 71332 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 4.07% examples, 63842 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 8.05% examples, 66242 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 11.71% examples, 64079 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 15.60% examples, 63787 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 19.96% examples, 64863 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 23.75% examples, 64284 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 27.89% examples, 64890 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 32.24% examples, 65500 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 36.15% examples, 64996 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 40.08% examples, 64705 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 44.75% examples, 65281 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 48.88% examples, 65855 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 52.84% examples, 65777 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 56.80% examples, 65747 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 60.41% examples, 65224 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 64.42% examples, 65244 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 68.50% examples, 65330 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 72.89% examples, 65658 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 77.55% examples, 65917 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 81.72% examples, 66105 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 85.35% examples, 65847 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 89.31% examples, 65824 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 93.98% examples, 66144 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 25 - PROGRESS: at 98.42% examples, 66374 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 25 : training on 4546455 raw words (1704519 effective words) took 25.6s, 66656 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 4.07% examples, 65615 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 8.48% examples, 68597 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 12.89% examples, 69914 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 17.45% examples, 70642 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 21.42% examples, 70516 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 25.75% examples, 70559 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 29.78% examples, 70464 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 34.18% examples, 70585 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 38.31% examples, 70502 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 42.55% examples, 70304 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 46.60% examples, 70188 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 50.79% examples, 70184 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 54.58% examples, 69540 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 58.67% examples, 69487 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 63.07% examples, 69326 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 67.27% examples, 69144 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 71.59% examples, 68960 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 75.86% examples, 69212 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 80.15% examples, 69218 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 84.71% examples, 69454 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 89.31% examples, 69605 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 93.98% examples, 69736 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 26 - PROGRESS: at 98.20% examples, 69849 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 26 : training on 4546455 raw words (1703911 effective words) took 24.4s, 69957 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 4.07% examples, 62425 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 8.48% examples, 66659 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 12.89% examples, 67584 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 17.64% examples, 68587 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 22.01% examples, 68872 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 26.58% examples, 69338 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 30.86% examples, 69876 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 34.95% examples, 69697 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 39.19% examples, 69667 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 43.67% examples, 69984 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 48.03% examples, 70395 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 52.48% examples, 70866 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 56.80% examples, 71025 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 61.28% examples, 71242 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 65.94% examples, 71454 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 70.24% examples, 71322 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 74.44% examples, 71081 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 78.89% examples, 71235 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 82.98% examples, 70872 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 87.15% examples, 70759 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 91.12% examples, 70381 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 94.43% examples, 69719 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 27 - PROGRESS: at 97.80% examples, 69241 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 27 : training on 4546455 raw words (1704793 effective words) took 24.8s, 68871 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 3.48% examples, 54557 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 7.26% examples, 59159 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 11.71% examples, 63820 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 16.08% examples, 66091 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 20.19% examples, 66137 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 24.11% examples, 66716 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 28.51% examples, 66683 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 33.13% examples, 67515 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 37.67% examples, 68228 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 42.33% examples, 68781 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 46.80% examples, 69224 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 50.97% examples, 69512 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 55.51% examples, 69881 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 59.30% examples, 69589 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 63.99% examples, 69907 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 68.50% examples, 70160 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 72.89% examples, 70375 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 77.29% examples, 70443 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 81.72% examples, 70581 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 86.04% examples, 70720 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 90.41% examples, 70833 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 94.87% examples, 70904 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 28 - PROGRESS: at 99.02% examples, 70814 words/s, in_qsize 4, out_qsize 1
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 28 : training on 4546455 raw words (1704313 effective words) took 24.0s, 71046 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 4.07% examples, 65791 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 8.28% examples, 67902 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 12.74% examples, 69463 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 17.45% examples, 69907 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 21.82% examples, 70268 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 26.40% examples, 70594 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 30.86% examples, 70936 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 35.39% examples, 71316 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 40.08% examples, 71722 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 44.75% examples, 71906 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 48.88% examples, 72014 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 53.26% examples, 72133 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 57.83% examples, 72241 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 62.36% examples, 72372 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 67.08% examples, 72590 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 71.40% examples, 72446 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 75.86% examples, 72654 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 80.62% examples, 72803 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 85.13% examples, 72948 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 89.74% examples, 72964 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 93.98% examples, 72463 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 29 - PROGRESS: at 98.42% examples, 72327 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 29 : training on 4546455 raw words (1704490 effective words) took 23.5s, 72592 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 3.48% examples, 58181 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 7.83% examples, 65044 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 12.31% examples, 67254 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 17.04% examples, 68468 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 21.42% examples, 69267 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 25.98% examples, 69815 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 30.43% examples, 70119 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 34.56% examples, 69936 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 39.00% examples, 69769 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 43.67% examples, 69863 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 48.03% examples, 70201 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 51.86% examples, 69579 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 56.39% examples, 69814 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 60.86% examples, 70034 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 64.65% examples, 69475 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 68.72% examples, 69289 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 73.13% examples, 69437 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 77.55% examples, 69634 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 81.72% examples, 69603 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 86.04% examples, 69744 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 90.19% examples, 69403 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 94.87% examples, 69599 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 30 - PROGRESS: at 99.22% examples, 69812 words/s, in_qsize 4, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 30 : training on 4546455 raw words (1704025 effective words) took 24.4s, 69883 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 4.07% examples, 64404 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 8.48% examples, 68737 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 12.89% examples, 70367 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 17.45% examples, 70183 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 21.42% examples, 69788 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 25.75% examples, 69566 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 30.22% examples, 70125 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 34.75% examples, 70458 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 39.42% examples, 70773 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 43.67% examples, 70596 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 47.82% examples, 70719 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 51.61% examples, 70010 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 55.27% examples, 69357 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 58.87% examples, 68822 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 63.07% examples, 68856 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 67.70% examples, 69141 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 72.25% examples, 69394 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 76.82% examples, 69701 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 81.50% examples, 69994 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 86.04% examples, 70146 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 90.41% examples, 70267 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 95.08% examples, 70425 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 31 - PROGRESS: at 99.43% examples, 70591 words/s, in_qsize 3, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 31 : training on 4546455 raw words (1705663 effective words) took 24.1s, 70706 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 4.07% examples, 67363 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 8.48% examples, 69892 words/s, in_qsize 5, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 12.89% examples, 71092 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 17.64% examples, 71619 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 22.01% examples, 71503 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 26.36% examples, 71613 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 30.45% examples, 71149 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 34.75% examples, 71446 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 39.19% examples, 71329 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 43.67% examples, 71391 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 47.82% examples, 71548 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 52.06% examples, 71132 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 56.58% examples, 71002 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 61.05% examples, 71061 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 65.72% examples, 71183 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 70.00% examples, 71229 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 74.37% examples, 71148 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 78.65% examples, 71072 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 82.98% examples, 71095 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 87.60% examples, 71123 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 91.98% examples, 71191 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 32 - PROGRESS: at 96.37% examples, 71201 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 32 : training on 4546455 raw words (1706093 effective words) took 23.9s, 71375 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 4.07% examples, 65527 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 8.48% examples, 69167 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 12.89% examples, 70102 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 17.66% examples, 70844 words/s, in_qsize 5, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 21.82% examples, 71284 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 26.36% examples, 71363 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 30.86% examples, 71429 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 35.21% examples, 71632 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 39.63% examples, 71714 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 44.29% examples, 71976 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 48.50% examples, 72082 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 52.84% examples, 72217 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 57.41% examples, 72436 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 61.95% examples, 72585 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 66.68% examples, 72730 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 71.18% examples, 72879 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 75.61% examples, 72988 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 80.40% examples, 73090 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 84.92% examples, 73254 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 89.10% examples, 73016 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 92.91% examples, 72538 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 33 - PROGRESS: at 96.60% examples, 71987 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 33 : training on 4546455 raw words (1705096 effective words) took 23.7s, 71814 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 4.07% examples, 63920 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 8.48% examples, 68762 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 12.89% examples, 70169 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 17.66% examples, 70987 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 22.03% examples, 71700 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 26.58% examples, 72286 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 31.09% examples, 72670 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 35.67% examples, 73059 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 40.33% examples, 73127 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 44.97% examples, 73198 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 49.26% examples, 73424 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 53.70% examples, 73540 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 58.26% examples, 73641 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 62.83% examples, 73833 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 67.49% examples, 73845 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 72.00% examples, 73975 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 76.36% examples, 73948 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 80.81% examples, 73946 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 85.35% examples, 73871 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 89.96% examples, 73834 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 94.65% examples, 73919 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 34 - PROGRESS: at 99.02% examples, 73962 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 34 : training on 4546455 raw words (1705741 effective words) took 23.0s, 74160 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 4.07% examples, 68267 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 8.48% examples, 71325 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 12.89% examples, 71450 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 17.45% examples, 71938 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 21.42% examples, 70817 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 25.75% examples, 71243 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 30.00% examples, 71375 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 34.39% examples, 71411 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 38.80% examples, 71615 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 43.21% examples, 71641 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 47.60% examples, 71891 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 52.06% examples, 71741 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 56.58% examples, 71946 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 61.09% examples, 71997 words/s, in_qsize 5, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 65.72% examples, 72192 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 70.24% examples, 72464 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 74.84% examples, 72615 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 79.51% examples, 72864 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 84.04% examples, 73024 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 88.49% examples, 72994 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 92.91% examples, 73031 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 35 - PROGRESS: at 97.45% examples, 73137 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 35 : training on 4546455 raw words (1705493 effective words) took 23.2s, 73378 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 4.07% examples, 68125 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 8.48% examples, 71953 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 12.89% examples, 72890 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 17.66% examples, 73546 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 22.03% examples, 73776 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 26.58% examples, 73828 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 31.09% examples, 73839 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 35.39% examples, 73807 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 39.19% examples, 72552 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 43.43% examples, 72027 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 47.82% examples, 72151 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 52.27% examples, 72403 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 56.80% examples, 72412 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 61.28% examples, 72553 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 65.94% examples, 72760 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 70.46% examples, 72930 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 75.02% examples, 73079 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 79.74% examples, 73214 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 84.26% examples, 73328 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 88.89% examples, 73406 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 93.34% examples, 73420 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 36 - PROGRESS: at 97.80% examples, 73483 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 36 : training on 4546455 raw words (1705525 effective words) took 23.1s, 73729 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 4.07% examples, 67907 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 8.48% examples, 71933 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 12.89% examples, 72844 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 17.66% examples, 73557 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 22.01% examples, 73823 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 26.58% examples, 74203 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 31.09% examples, 74060 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 35.67% examples, 74230 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 40.33% examples, 74340 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 44.97% examples, 74371 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 49.26% examples, 74515 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 53.70% examples, 74582 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 58.26% examples, 74616 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 62.83% examples, 74699 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 67.49% examples, 74637 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 72.00% examples, 74717 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 76.62% examples, 74710 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 81.28% examples, 74682 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 85.82% examples, 74747 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 90.41% examples, 74702 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 95.08% examples, 74707 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 37 - PROGRESS: at 99.43% examples, 74769 words/s, in_qsize 3, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 37 : training on 4546455 raw words (1705330 effective words) took 22.8s, 74940 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 4.07% examples, 68516 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 8.48% examples, 71662 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 12.89% examples, 72856 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 17.64% examples, 73710 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 22.03% examples, 73901 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 26.58% examples, 74114 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 31.09% examples, 74298 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 35.39% examples, 74210 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 40.08% examples, 74410 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 44.75% examples, 74258 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 49.05% examples, 74409 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 53.47% examples, 74559 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 58.03% examples, 74633 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 62.58% examples, 74676 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 67.27% examples, 74607 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 71.80% examples, 74711 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 76.36% examples, 74632 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 81.06% examples, 74665 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 85.57% examples, 74760 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 90.19% examples, 74785 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 94.87% examples, 74868 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 38 - PROGRESS: at 99.22% examples, 74931 words/s, in_qsize 4, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 38 : training on 4546455 raw words (1704086 effective words) took 22.7s, 74998 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 4.07% examples, 68854 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 8.50% examples, 72109 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 12.89% examples, 73155 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 17.64% examples, 73879 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 22.03% examples, 74074 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 26.58% examples, 74391 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 31.09% examples, 74449 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 35.67% examples, 74623 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 40.33% examples, 74727 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 44.97% examples, 74744 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 49.09% examples, 74667 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 53.47% examples, 74731 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 58.03% examples, 74781 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 62.58% examples, 74781 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 67.27% examples, 74817 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 71.80% examples, 74922 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 76.36% examples, 74879 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 81.06% examples, 74885 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 85.57% examples, 74919 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 90.19% examples, 74937 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 94.87% examples, 75013 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 39 - PROGRESS: at 99.22% examples, 75095 words/s, in_qsize 4, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 39 : training on 4546455 raw words (1703757 effective words) took 22.7s, 75199 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 4.07% examples, 68705 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 8.48% examples, 72038 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 12.89% examples, 73131 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 17.64% examples, 73918 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 22.03% examples, 74203 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 26.58% examples, 74262 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 30.86% examples, 73766 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 35.21% examples, 73677 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 39.63% examples, 73648 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 44.07% examples, 73318 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 48.43% examples, 73379 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 52.84% examples, 73586 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 57.41% examples, 73771 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 61.72% examples, 73595 words/s, in_qsize 6, out_qsize 2
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 66.42% examples, 73760 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 70.94% examples, 73898 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 75.42% examples, 73967 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 79.93% examples, 73879 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 84.04% examples, 73662 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 88.68% examples, 73775 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 93.34% examples, 73912 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 40 - PROGRESS: at 97.63% examples, 73852 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 40 : training on 4546455 raw words (1704602 effective words) took 23.0s, 74018 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 4.07% examples, 68887 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 8.48% examples, 71725 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 12.89% examples, 72969 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 17.66% examples, 72770 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 22.01% examples, 72562 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 26.58% examples, 73167 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 31.09% examples, 73381 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 35.67% examples, 73716 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 40.33% examples, 73927 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 44.97% examples, 74033 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 49.05% examples, 73933 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 53.47% examples, 74098 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 58.03% examples, 74206 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 62.58% examples, 74268 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 67.27% examples, 74063 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 71.80% examples, 74133 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 76.36% examples, 74068 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 81.06% examples, 74132 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 85.59% examples, 74209 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 90.19% examples, 74303 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 94.87% examples, 74446 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 41 - PROGRESS: at 99.43% examples, 74442 words/s, in_qsize 3, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 41 : training on 4546455 raw words (1704346 effective words) took 22.8s, 74598 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 4.07% examples, 68639 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 8.48% examples, 71832 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 12.89% examples, 73092 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 17.66% examples, 73564 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 22.03% examples, 73829 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 26.58% examples, 74042 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 31.09% examples, 74166 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 35.67% examples, 74344 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 40.33% examples, 74403 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 44.97% examples, 74420 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 49.26% examples, 74580 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 53.70% examples, 74686 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 58.26% examples, 74696 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 62.83% examples, 74802 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 67.49% examples, 74765 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 72.00% examples, 74856 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 76.62% examples, 74798 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 81.28% examples, 74829 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 85.82% examples, 74908 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 90.41% examples, 74865 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 95.08% examples, 74870 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 42 - PROGRESS: at 99.43% examples, 74918 words/s, in_qsize 3, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 42 : training on 4546455 raw words (1704390 effective words) took 22.7s, 75074 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 4.07% examples, 69073 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 8.48% examples, 72247 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 12.89% examples, 73402 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 17.66% examples, 74109 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 22.03% examples, 74253 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 26.58% examples, 74563 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 31.09% examples, 74716 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 35.67% examples, 74853 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 40.33% examples, 75046 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 44.97% examples, 75044 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 49.26% examples, 75195 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 53.70% examples, 75256 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 58.26% examples, 75272 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 62.83% examples, 75364 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 67.49% examples, 75338 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 72.00% examples, 75392 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 76.62% examples, 75477 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 81.06% examples, 75402 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 85.57% examples, 75478 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 90.41% examples, 75694 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 95.08% examples, 75608 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 43 - PROGRESS: at 99.43% examples, 75688 words/s, in_qsize 3, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 43 : training on 4546455 raw words (1704937 effective words) took 22.5s, 75841 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 4.76% examples, 71967 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 9.60% examples, 77699 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 14.31% examples, 76046 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 19.38% examples, 77877 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 23.50% examples, 77205 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 28.31% examples, 77614 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 33.13% examples, 77179 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 37.89% examples, 77450 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 42.75% examples, 77686 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 47.22% examples, 77524 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 51.86% examples, 77799 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 56.58% examples, 77976 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 61.28% examples, 77821 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 66.15% examples, 77999 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 70.46% examples, 77711 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 75.42% examples, 78055 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 80.40% examples, 77809 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 85.35% examples, 78117 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 90.19% examples, 77869 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 95.08% examples, 77996 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 44 - PROGRESS: at 99.62% examples, 78017 words/s, in_qsize 2, out_qsize 1
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 44 : training on 4546455 raw words (1704266 effective words) took 21.8s, 78157 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 4.52% examples, 76144 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 9.13% examples, 74724 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 14.08% examples, 77819 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 18.91% examples, 76729 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 23.29% examples, 76887 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 28.31% examples, 77863 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 33.13% examples, 77299 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 37.89% examples, 77511 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 42.98% examples, 77525 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 47.60% examples, 77922 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 52.27% examples, 78022 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 56.98% examples, 77903 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 61.72% examples, 77798 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 66.93% examples, 77999 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 71.59% examples, 77850 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 76.36% examples, 78007 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 81.06% examples, 77963 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 85.82% examples, 78007 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 90.66% examples, 78112 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 45 - PROGRESS: at 95.52% examples, 78077 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 45 : training on 4546455 raw words (1705415 effective words) took 21.8s, 78198 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 4.76% examples, 73075 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 9.60% examples, 77378 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 14.29% examples, 76318 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 19.15% examples, 77548 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 23.50% examples, 77482 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 28.31% examples, 77251 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 33.34% examples, 77866 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 37.89% examples, 77608 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 42.75% examples, 77891 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 47.22% examples, 77761 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 51.61% examples, 77636 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 56.58% examples, 78175 words/s, in_qsize 4, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 61.28% examples, 77814 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 66.15% examples, 78021 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 70.94% examples, 78163 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 75.61% examples, 77835 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 80.38% examples, 77802 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 85.35% examples, 78095 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 90.19% examples, 78006 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 95.08% examples, 78026 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 46 - PROGRESS: at 99.43% examples, 77924 words/s, in_qsize 3, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 46 : training on 4546455 raw words (1705040 effective words) took 21.9s, 78030 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 4.52% examples, 75110 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 9.13% examples, 74962 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 14.08% examples, 76674 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 18.69% examples, 76412 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 23.06% examples, 76221 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 27.70% examples, 76304 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 32.48% examples, 76989 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 37.04% examples, 76724 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 41.52% examples, 76387 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 46.01% examples, 76385 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 50.38% examples, 76453 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 55.07% examples, 76688 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 59.75% examples, 76374 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 64.42% examples, 76394 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 69.14% examples, 76642 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 73.55% examples, 76313 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 78.22% examples, 76329 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 82.79% examples, 75962 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 86.94% examples, 75605 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 91.34% examples, 75519 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 47 - PROGRESS: at 95.92% examples, 75478 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 47 : training on 4546455 raw words (1705260 effective words) took 22.5s, 75759 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 4.07% examples, 66160 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 8.48% examples, 69786 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 12.89% examples, 71454 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 18.05% examples, 74117 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 22.42% examples, 74734 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 27.03% examples, 75098 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 31.51% examples, 75264 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 36.38% examples, 75600 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 41.27% examples, 75503 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 46.01% examples, 75968 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 50.38% examples, 75975 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 55.07% examples, 76370 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 59.75% examples, 76221 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 64.65% examples, 76373 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 69.34% examples, 76532 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 74.01% examples, 76554 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 78.65% examples, 76521 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 83.38% examples, 76588 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 88.25% examples, 76724 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 93.15% examples, 76801 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 48 - PROGRESS: at 97.24% examples, 76492 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 48 : training on 4546455 raw words (1703712 effective words) took 22.2s, 76588 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 4.07% examples, 65385 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 8.50% examples, 66372 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 12.89% examples, 67850 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 17.66% examples, 68378 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 22.01% examples, 69835 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 26.58% examples, 70672 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 31.09% examples, 71596 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 35.67% examples, 72061 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 40.33% examples, 72411 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 44.97% examples, 72361 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 49.26% examples, 72656 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 53.04% examples, 71796 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 57.63% examples, 71933 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 62.15% examples, 72260 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 66.93% examples, 72331 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 71.59% examples, 72814 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 76.36% examples, 73112 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 80.81% examples, 73174 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 85.35% examples, 73386 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 89.96% examples, 73498 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 94.43% examples, 73499 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 49 - PROGRESS: at 98.63% examples, 73495 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 49 : training on 4546455 raw words (1705182 effective words) took 23.1s, 73743 effective words/s
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 4.07% examples, 67608 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 8.48% examples, 71189 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 12.89% examples, 72467 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 17.64% examples, 72862 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 22.01% examples, 72474 words/s, in_qsize 5, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 26.36% examples, 72310 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 31.09% examples, 72838 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 35.90% examples, 73320 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 40.54% examples, 73770 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 45.37% examples, 74357 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 50.14% examples, 74586 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 54.85% examples, 75090 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 59.75% examples, 75056 words/s, in_qsize 6, out_qsize 1
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 64.42% examples, 75029 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 69.14% examples, 75294 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 73.80% examples, 75390 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 78.42% examples, 75477 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 83.21% examples, 75699 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 88.03% examples, 75879 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 92.91% examples, 75985 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - EPOCH 50 - PROGRESS: at 97.63% examples, 76142 words/s, in_qsize 6, out_qsize 0
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 2 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 1 more threads
+INFO - gensim.models.base_any2vec - worker thread finished; awaiting finish of 0 more threads
+INFO - gensim.models.base_any2vec - EPOCH - 50 : training on 4546455 raw words (1704817 effective words) took 22.3s, 76313 effective words/s
+INFO - gensim.models.base_any2vec - training on a 227322750 raw words (85256704 effective words) took 1205.3s, 70736 effective words/s
+INFO - gensim.models.keyedvectors - precomputing L2-norms of word weight vectors
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+**.*
+optimization finished, #iter = 1501
+obj = -1295.153437, rho = 0.987972
+nSV = 2951, nBSV = 2939
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1271
+obj = -1088.785201, rho = 0.579859
+nSV = 2291, nBSV = 2272
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1225
+obj = -951.206484, rho = 1.473347
+nSV = 2378, nBSV = 2361
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1365
+obj = -1164.845948, rho = -0.504957
+nSV = 2396, nBSV = 2362
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1663
+obj = -1499.226633, rho = -0.004333
+nSV = 3090, nBSV = 3067
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1258
+obj = -961.540222, rho = 1.090174
+nSV = 2364, nBSV = 2349
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2051
+obj = -1728.520654, rho = 0.950144
+nSV = 3748, nBSV = 3733
+.
+Warning: using -h 0 may be faster
+**.*
+optimization finished, #iter = 1286
+obj = -1128.811611, rho = -0.113689
+nSV = 2388, nBSV = 2370
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2309
+obj = -1841.876544, rho = 1.250209
+nSV = 3802, nBSV = 3756
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1175
+obj = -1025.439215, rho = 0.182719
+nSV = 2238, nBSV = 2228
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1360
+obj = -1089.161222, rho = 0.691569
+nSV = 2524, nBSV = 2507
+.
+Warning: using -h 0 may be faster
+**.*
+optimization finished, #iter = 1267
+obj = -1167.241566, rho = -1.035409
+nSV = 2393, nBSV = 2366
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1517
+obj = -1344.256482, rho = -0.547510
+nSV = 2968, nBSV = 2955
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1337
+obj = -1107.218255, rho = 0.467649
+nSV = 2447, nBSV = 2437
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2222
+obj = -1535.051166, rho = 0.930765
+nSV = 3144, nBSV = 3016
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1276
+obj = -1157.727919, rho = -1.043730
+nSV = 2385, nBSV = 2374
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2711
+obj = -1535.940869, rho = 0.963258
+nSV = 3179, nBSV = 2978
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1012
+obj = -790.165707, rho = 0.362226
+nSV = 1916, nBSV = 1908
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1125
+obj = -980.574532, rho = -0.894173
+nSV = 2075, nBSV = 2060
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1259
+obj = -1061.898384, rho = -0.664429
+nSV = 2241, nBSV = 2233
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1242
+obj = -1027.336131, rho = 0.471519
+nSV = 2313, nBSV = 2298
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1394
+obj = -1115.789871, rho = 0.317241
+nSV = 2314, nBSV = 2295
+*
+optimization finished, #iter = 968
+obj = -808.216499, rho = -0.821867
+nSV = 1762, nBSV = 1752
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1862
+obj = -1146.787905, rho = 0.918320
+nSV = 2361, nBSV = 2250
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1088
+obj = -885.351710, rho = -1.169464
+nSV = 2117, nBSV = 2108
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1219
+obj = -960.538054, rho = -0.897539
+nSV = 2311, nBSV = 2294
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1025
+obj = -786.536818, rho = -0.254209
+nSV = 1940, nBSV = 1926
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1611
+obj = -1247.692808, rho = -0.683756
+nSV = 2908, nBSV = 2894
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1122
+obj = -943.928249, rho = -1.420316
+nSV = 2128, nBSV = 2121
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1825
+obj = -1349.409139, rho = -0.505636
+nSV = 3205, nBSV = 3187
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1343
+obj = -1161.912301, rho = 0.897816
+nSV = 2396, nBSV = 2360
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1158
+obj = -959.841030, rho = 0.985415
+nSV = 2160, nBSV = 2151
+.
+Warning: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2075
+obj = -1187.357796, rho = 0.999141
+nSV = 2488, nBSV = 2281
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1131
+obj = -1017.195856, rho = -0.470805
+nSV = 2172, nBSV = 2161
+.
+Warning: using -h 0 may be faster
+*..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 3884
+obj = -1189.691483, rho = 1.002791
+nSV = 2654, nBSV = 2098
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1231
+obj = -971.993310, rho = 0.705489
+nSV = 2312, nBSV = 2296
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2071
+obj = -1524.887608, rho = 0.940296
+nSV = 3120, nBSV = 3039
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1317
+obj = -1155.445887, rho = -0.850607
+nSV = 2387, nBSV = 2374
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2300
+obj = -1524.947493, rho = 0.972753
+nSV = 3126, nBSV = 3033
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1492
+obj = -1155.281794, rho = -0.385562
+nSV = 2626, nBSV = 2610
+*
+optimization finished, #iter = 970
+obj = -796.370841, rho = -0.812372
+nSV = 1809, nBSV = 1799
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 1859
+obj = -1427.402914, rho = -0.166087
+nSV = 3169, nBSV = 3152
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2376
+obj = -1188.872410, rho = -1.003868
+nSV = 2532, nBSV = 2231
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2932
+obj = -2511.019407, rho = 0.808520
+nSV = 5190, nBSV = 5164
+.
+Warning: using -h 0 may be faster
+*.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2571
+obj = -1188.367638, rho = 1.003126
+nSV = 2523, nBSV = 2248
+Total nSV = 17634
+[LibSVM]0.30522999369880277
