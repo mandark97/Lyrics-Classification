@@ -1,0 +1,12 @@
+INFO - word 2 vec - Running command 'main'
+INFO - word 2 vec - Started run with ID "33"
+INFO - gensim.utils - loading Word2Vec object from word2vec.model
+WARNING - smart_open.smart_open_lib - this function is deprecated, use smart_open.open instead
+INFO - gensim.utils - loading wv recursively from word2vec.model.wv.* with mmap=None
+INFO - gensim.utils - loading vectors from word2vec.model.wv.vectors.npy with mmap=None
+INFO - gensim.utils - setting ignored attribute vectors_norm to None
+INFO - gensim.utils - loading vocabulary recursively from word2vec.model.vocabulary.* with mmap=None
+INFO - gensim.utils - loading trainables recursively from word2vec.model.trainables.* with mmap=None
+INFO - gensim.utils - loading syn1neg from word2vec.model.trainables.syn1neg.npy with mmap=None
+INFO - gensim.utils - setting ignored attribute cum_table to None
+INFO - gensim.utils - loaded word2vec.model

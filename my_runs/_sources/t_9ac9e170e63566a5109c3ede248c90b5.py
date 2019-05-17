@@ -1,16 +1,14 @@
-import gensim
-import matplotlib.pyplot as plt
 import numpy as np
-from gensim.models import Word2Vec
 from sacred import Experiment
 from sacred.observers import FileStorageObserver
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-from tensorflow import keras
-from tensorflow.keras.layers import Dense, Dropout, BatchNormalization
-
 from preprocessing import DatasetLoader
+import gensim
+from gensim.models import Word2Vec
+
+from tensorflow import keras
+from tensorflow.keras.layers import Dense
 
 ex = Experiment("word 2 vec")
 ex.observers.append(FileStorageObserver.create("my_runs"))
@@ -48,18 +46,13 @@ def main(model_conf, _run):
     x_w2v = np.array([get_sentence_embedding(w2v_model, sentence)
                       for sentence in X])
 
-    X_train, X_val, y_train, y_val = train_test_split(x_w2v, y)
     model = keras.Sequential([
-        Dense(8, activation='relu', input_shape=(3000,)),
-        Dropout(0.5),
-        Dense(6, activation='relu'),
+        Dense(64, activation='relu', input_shape=(3000,)),
+        Dense(32, activation='relu'),
         Dense(len(np.unique(y)), activation='softmax')
     ])
-    model.compile(loss='sparse_categorical_crossentropy',
-                  optimizer='adam', metrics=['accuracy'])
-    history = model.fit(X_train, y_train, epochs=100, batch_size=1024,
-                        validation_data=(X_val, y_val))
-
+    model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    model.fit(x_w2v, y, epochs=30, batch_size=1024)
     X_test, y_test = dataset_loader.load_test()
     w_test = np.array([get_sentence_embedding(w2v_model, sentence)
                        for sentence in X_test])

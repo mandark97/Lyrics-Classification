@@ -1,0 +1,89 @@
+{
+  "artifacts": [],
+  "command": "main",
+  "experiment": {
+    "base_dir": "/home/matei/Projects/Lyrics-Classification",
+    "dependencies": [
+      "gensim==3.7.3",
+      "numpy==1.16.2",
+      "sacred==0.7.4",
+      "scikit-learn==0.20.3",
+      "tensorflow==1.13.1"
+    ],
+    "mainfile": "t.py",
+    "name": "word 2 vec",
+    "repositories": [],
+    "sources": [
+      [
+        "preprocessing.py",
+        "_sources/preprocessing_cc818be136265f2a352c369e9d26b626.py"
+      ],
+      [
+        "t.py",
+        "_sources/t_8df2484463dce623d9bb80014876f123.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/home/matei/anaconda3/envs/machine_learning/lib/python3.6/site-packages/sacred/config/captured_function.py\", line 46, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"t.py\", line 51, in main\n    Dense(32, activate='relu'),\n",
+    "  File \"/home/matei/anaconda3/envs/machine_learning/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py\", line 920, in __init__\n    activity_regularizer=regularizers.get(activity_regularizer), **kwargs)\n",
+    "  File \"/home/matei/anaconda3/envs/machine_learning/lib/python3.6/site-packages/tensorflow/python/training/checkpointable/base.py\", line 442, in _method_wrapper\n    method(self, *args, **kwargs)\n",
+    "  File \"/home/matei/anaconda3/envs/machine_learning/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py\", line 122, in __init__\n    raise TypeError('Keyword argument not understood:', kwarg)\n",
+    "TypeError: ('Keyword argument not understood:', 'activate')\n"
+  ],
+  "heartbeat": "2019-05-16T14:33:30.580268",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz",
+    "gpus": {
+      "driver_version": "418.56",
+      "gpus": [
+        {
+          "model": "GeForce GTX 1060 with Max-Q Design",
+          "persistence_mode": false,
+          "total_memory": 6078
+        }
+      ]
+    },
+    "hostname": "matei",
+    "os": [
+      "Linux",
+      "Linux-4.15.0-50-generic-x86_64-with-debian-buster-sid"
+    ],
+    "python_version": "3.6.8"
+  },
+  "meta": {
+    "command": "main",
+    "options": {
+      "--beat_interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print_config": false,
+      "--priority": null,
+      "--queue": false,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2019-05-16T14:33:02.230216",
+  "status": "FAILED",
+  "stop_time": "2019-05-16T14:33:30.581475"
+}

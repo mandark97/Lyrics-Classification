@@ -51,13 +51,17 @@ def main(model_conf, _run):
     X_train, X_val, y_train, y_val = train_test_split(x_w2v, y)
     model = keras.Sequential([
         Dense(8, activation='relu', input_shape=(3000,)),
+        Dense(8, activation='relu'),
+        Dense(8, activation='relu'),
         Dropout(0.5),
+        Dense(6, activation='relu'),
+        Dense(6, activation='relu'),
         Dense(6, activation='relu'),
         Dense(len(np.unique(y)), activation='softmax')
     ])
     model.compile(loss='sparse_categorical_crossentropy',
                   optimizer='adam', metrics=['accuracy'])
-    history = model.fit(X_train, y_train, epochs=100, batch_size=1024,
+    history = model.fit(X_train, y_train, epochs=500, batch_size=1024,
                         validation_data=(X_val, y_val))
 
     X_test, y_test = dataset_loader.load_test()
@@ -68,3 +72,20 @@ def main(model_conf, _run):
 
     print(score)
     _run.log_scalar("pipeline_score", score)
+
+    # summarize history for accuracy
+    plt.plot(history.history['acc'])
+    plt.plot(history.history['val_acc'])
+    plt.title('model accuracy')
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    plt.show()
+    # summarize history for loss
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('model loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    plt.show()

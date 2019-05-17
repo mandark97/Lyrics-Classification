@@ -1,0 +1,195 @@
+INFO - tfid - Running command 'main'
+INFO - tfid - Started run with ID "26"
+INFO - gensim.utils - loading Word2Vec object from word2vec.model
+WARNING - smart_open.smart_open_lib - this function is deprecated, use smart_open.open instead
+INFO - gensim.utils - loading wv recursively from word2vec.model.wv.* with mmap=None
+INFO - gensim.utils - loading vectors from word2vec.model.wv.vectors.npy with mmap=None
+INFO - gensim.utils - setting ignored attribute vectors_norm to None
+INFO - gensim.utils - loading vocabulary recursively from word2vec.model.vocabulary.* with mmap=None
+INFO - gensim.utils - loading trainables recursively from word2vec.model.trainables.* with mmap=None
+INFO - gensim.utils - loading syn1neg from word2vec.model.trainables.syn1neg.npy with mmap=None
+INFO - gensim.utils - setting ignored attribute cum_table to None
+INFO - gensim.utils - loaded word2vec.model
+.....*..*
+optimization finished, #iter = 7120
+obj = -528.421636, rho = 2.093615
+nSV = 1543, nBSV = 1046
+....*...*.*
+optimization finished, #iter = 8530
+obj = -637.809138, rho = 2.256056
+nSV = 1731, nBSV = 1266
+..*.*
+optimization finished, #iter = 3798
+obj = -284.861555, rho = 2.688574
+nSV = 932, nBSV = 565
+....*..*
+optimization finished, #iter = 6037
+obj = -610.899271, rho = 1.008696
+nSV = 1695, nBSV = 1253
+......*....*.*
+optimization finished, #iter = 11254
+obj = -867.442721, rho = 2.356232
+nSV = 2279, nBSV = 1759
+..*.*
+optimization finished, #iter = 3897
+obj = -266.040668, rho = 2.248905
+nSV = 889, nBSV = 521
+......*....*.*
+optimization finished, #iter = 10677
+obj = -945.251376, rho = 2.590277
+nSV = 2433, nBSV = 1870
+....*..*
+optimization finished, #iter = 6582
+obj = -601.587539, rho = 1.275483
+nSV = 1654, nBSV = 1187
+.......*.....*..*
+optimization finished, #iter = 13778
+obj = -1124.450913, rho = 2.399261
+nSV = 2826, nBSV = 2232
+.....*..*
+optimization finished, #iter = 7892
+obj = -552.206575, rho = -0.033903
+nSV = 1553, nBSV = 1064
+....*..*
+optimization finished, #iter = 6067
+obj = -559.988508, rho = 0.471756
+nSV = 1533, nBSV = 1101
+.....*...*
+optimization finished, #iter = 8007
+obj = -700.969891, rho = -1.565109
+nSV = 1876, nBSV = 1391
+.....*..*.*
+optimization finished, #iter = 7787
+obj = -604.601927, rho = -0.696401
+nSV = 1686, nBSV = 1194
+....*...*
+optimization finished, #iter = 7232
+obj = -608.319495, rho = 0.411375
+nSV = 1665, nBSV = 1198
+.........*.....*..*
+optimization finished, #iter = 15626
+obj = -1183.578405, rho = -0.267296
+nSV = 2916, nBSV = 2333
+.....*....*...*
+optimization finished, #iter = 11082
+obj = -664.076316, rho = -1.471795
+nSV = 1825, nBSV = 1331
+..........*.......*.*
+optimization finished, #iter = 18214
+obj = -1241.971400, rho = 0.162320
+nSV = 3036, nBSV = 2383
+..*.*
+optimization finished, #iter = 3039
+obj = -288.939893, rho = 0.045170
+nSV = 907, nBSV = 587
+....*..*.*
+optimization finished, #iter = 6956
+obj = -609.297753, rho = -1.165310
+nSV = 1668, nBSV = 1217
+....*...*.*
+optimization finished, #iter = 7262
+obj = -608.774501, rho = -0.700105
+nSV = 1690, nBSV = 1204
+...*.*
+optimization finished, #iter = 4561
+obj = -410.311425, rho = 0.664132
+nSV = 1198, nBSV = 804
+.....*..*.*
+optimization finished, #iter = 7968
+obj = -725.589463, rho = -0.066927
+nSV = 1924, nBSV = 1396
+...*..*
+optimization finished, #iter = 5182
+obj = -454.406948, rho = -1.337681
+nSV = 1294, nBSV = 888
+.......*....*
+optimization finished, #iter = 11131
+obj = -884.417697, rho = 0.115576
+nSV = 2248, nBSV = 1647
+..*.*
+optimization finished, #iter = 3976
+obj = -332.487959, rho = -1.673301
+nSV = 1024, nBSV = 653
+...*.*
+optimization finished, #iter = 4706
+obj = -341.150027, rho = -0.925216
+nSV = 1064, nBSV = 670
+..*.*
+optimization finished, #iter = 3427
+obj = -317.869662, rho = -0.177021
+nSV = 955, nBSV = 610
+....*...*.*
+optimization finished, #iter = 8379
+obj = -660.504430, rho = -0.668462
+nSV = 1758, nBSV = 1260
+...*.*
+optimization finished, #iter = 4514
+obj = -468.867848, rho = -1.666612
+nSV = 1325, nBSV = 927
+.....*.*
+optimization finished, #iter = 6944
+obj = -586.542461, rho = -0.429580
+nSV = 1621, nBSV = 1137
+....*..*
+optimization finished, #iter = 6505
+obj = -561.011198, rho = 0.724875
+nSV = 1609, nBSV = 1137
+...*..*
+optimization finished, #iter = 5190
+obj = -403.356248, rho = 1.554035
+nSV = 1212, nBSV = 792
+......*...*.*
+optimization finished, #iter = 9456
+obj = -890.119933, rho = 1.015250
+nSV = 2298, nBSV = 1750
+...*..*
+optimization finished, #iter = 5436
+obj = -551.668467, rho = -0.084908
+nSV = 1539, nBSV = 1109
+.........*......*
+optimization finished, #iter = 15507
+obj = -1090.727024, rho = 1.237258
+nSV = 2691, nBSV = 2024
+..*..*
+optimization finished, #iter = 4140
+obj = -297.128279, rho = 0.975093
+nSV = 957, nBSV = 561
+.......*....*
+optimization finished, #iter = 11581
+obj = -981.167289, rho = 0.267767
+nSV = 2521, nBSV = 1943
+....*...*
+optimization finished, #iter = 7403
+obj = -678.616990, rho = -1.035651
+nSV = 1834, nBSV = 1358
+........*.....*.*
+optimization finished, #iter = 13965
+obj = -1006.013976, rho = 0.447533
+nSV = 2576, nBSV = 1977
+....*...*.*
+optimization finished, #iter = 7581
+obj = -533.990448, rho = -0.702145
+nSV = 1517, nBSV = 1009
+...*.*
+optimization finished, #iter = 4582
+obj = -375.855989, rho = -1.524295
+nSV = 1113, nBSV = 723
+......*...*
+optimization finished, #iter = 9208
+obj = -859.266137, rho = -0.653155
+nSV = 2190, nBSV = 1653
+.......*...*
+optimization finished, #iter = 10470
+obj = -975.180126, rho = -1.125329
+nSV = 2457, nBSV = 1906
+...........*.......*...*
+optimization finished, #iter = 21533
+obj = -1793.634079, rho = 0.344151
+nSV = 4220, nBSV = 3558
+.........*......*.*
+optimization finished, #iter = 15919
+obj = -970.832680, rho = 1.084258
+nSV = 2479, nBSV = 1823
+Total nSV = 15991
+[LibSVM]0.41739130434782606
+INFO - tfid - Completed after 0:34:04
