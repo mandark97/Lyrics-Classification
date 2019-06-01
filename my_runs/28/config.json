@@ -1,7 +1,0 @@
-{
-  "seed": 522660555,
-  "svc_conf": {
-    "C": 0.2,
-    "kernel": "linear"
-  }
-}

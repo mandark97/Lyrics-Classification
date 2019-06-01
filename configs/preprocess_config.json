@@ -1,0 +1,8 @@
+{
+  "preprocess_params": {
+    "max_df": 0.5,
+    "stop_words": "english",
+    "analyzer": "char",
+    "ngram_range": [3, 3]
+  }
+}

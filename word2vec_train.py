@@ -1,4 +1,4 @@
-from preprocessing import DatasetLoader
+from utils import DatasetLoader
 import gensim
 from gensim.models import Word2Vec
 
@@ -21,4 +21,4 @@ print("start training")
 w2v_model.train(cleaned_text,
                 total_examples=w2v_model.corpus_count,
                 epochs=100)
-w2v_model.save("word2vec.model")
+w2v_model.save("word2vec_models/word2vec.model")

@@ -1,7 +1,0 @@
-{
-  "C": 0.5,
-  "kernel": "linear",
-  "lowercase": true,
-  "max_features": 50000,
-  "seed": 869482509
-}

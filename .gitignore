@@ -1,5 +1,6 @@
 .vscode
 .ipynb_checkpoints
 *.pyc
-Lyrics-Genre-Test-GroundTruth.csv
-Lyrics-Genre-Train.csv
+datasets/
+word2vec_models
+metrics
